@@ -13,12 +13,8 @@ function writePassword() {
     password += generate;
   }
   
-  
-  
-  
 let parent = document.getElementById("password").innerHTML = password;
-  
-// let parent = document.getElementById("test").innerHTML = password;
+ 
 }
 
 generateBtn.addEventListener("click", writePassword);
